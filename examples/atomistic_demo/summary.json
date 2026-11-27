@@ -1,0 +1,67 @@
+{
+  "config": {
+    "repeats": [
+      3,
+      3,
+      5
+    ],
+    "seed": 17,
+    "temperature_K": 600.0,
+    "attempt_Hz": 1000000000000.0,
+    "hop_cutoff_A": 3.2,
+    "bond_cutoff_A": 2.6,
+    "contact_depth_A": 2.0,
+    "migration_barrier_eV": 0.7,
+    "exchange_barrier_eV": 0.75,
+    "site_O3_eV": 0.2,
+    "site_O4_eV": 0.3,
+    "binding_eV": 0.06,
+    "reservoir_stiffness_eV": 0.1,
+    "charge_e": 2.0,
+    "g_off_S": 1e-12,
+    "g_on_S": 1e-06,
+    "compliance_A": 1e-05
+  },
+  "source": "https://doi.org/10.1107/S2053229620013960",
+  "structure": "P21/c monoclinic HfO2, Pathak combined refinement; idealized Hf occupancy 1",
+  "status": "completed_waveform",
+  "event_counts": {
+    "hop": 120,
+    "oxygen_out": 1,
+    "oxygen_in": 1
+  },
+  "final": {
+    "time_s": 2e-06,
+    "events": 122,
+    "applied_V": -1.0,
+    "device_V": -1.0,
+    "current_A": -5.4867400010193706e-12,
+    "conductance_S": 5.4867400010193706e-12,
+    "vacancies": 11,
+    "reservoir_oxygen": 11,
+    "oxide_oxygen": 349,
+    "total_oxygen": 360,
+    "spanning": false,
+    "power_W": 5.486740000820956e-12,
+    "kcl_error_A": 3.4339243946370376e-22,
+    "power_error_W": -1.984142948811889e-22,
+    "temperature_K": 600.0
+  },
+  "oxygen_sites": 360,
+  "hf_atoms": 180,
+  "bulk_O_coordination": [
+    3,
+    4
+  ],
+  "pulses": [
+    [
+      1.0,
+      1e-06
+    ],
+    [
+      -1.0,
+      1e-06
+    ]
+  ],
+  "warning": "Real crystallographic sites; fixed lattice, isothermal illustrative rates, geometric candidate migration graph, uncalibrated effective transport. Not a validated SET/RESET simulation."
+}

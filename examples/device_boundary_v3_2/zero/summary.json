@@ -1,0 +1,407 @@
+{
+  "assumptions": [
+    "Fixed vacancy charge branch; isothermal; prescribed spatially uniform field; vacancy number conserved.",
+    "Classical energies and equal forward/reverse channel attempt prefactors; vibrational free-energy effects are not included.",
+    "Pair/environment closure, when enabled, is the declared catalogue approximation, not environment-resolved NEB data.",
+    "Raw trajectory MSD is not by itself a converged diffusion coefficient.",
+    "Two ideal Dirichlet electrode planes; periodic along the first two lattice vectors and blocking oxygen at both normal boundaries.",
+    "Homogeneous linear dielectric background without space-charge or electronic transport feedback; charged vacancies are test charges in the prescribed potential.",
+    "Contact masks label oxide-side regions only; contact-region sites are not pinned to the metal potential.",
+    "Bulk catalogue channels and site energies are used on a truncated slab; electrode-specific termination, surface energetics and interface chemistry are uncalibrated.",
+    "A finite closed slab at fixed voltage has a conservative ionic potential; vacancy accumulation is not sustained ionic current or conductive filament formation."
+  ],
+  "calibration_status": "illustrative",
+  "catalog_provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend.",
+  "catalog_sha256": "f5921aa3dc52cf4188c884f1a5ada6d7f41c18abc2fb29cbd7937003b6b7b43d",
+  "channel_counts": {
+    "b0-b1@-1,-1,0|q=2|direction=-1": 45,
+    "b0-b1@-1,-1,0|q=2|direction=1": 56,
+    "b0-b1@-1,0,0|q=2|direction=-1": 55,
+    "b0-b1@-1,0,0|q=2|direction=1": 57,
+    "b0-b2@-1,0,0|q=2|direction=-1": 61,
+    "b0-b2@-1,0,0|q=2|direction=1": 54,
+    "b0-b3@0,0,-1|q=2|direction=-1": 34,
+    "b0-b3@0,0,-1|q=2|direction=1": 35,
+    "b0-b3@0,0,0|q=2|direction=-1": 45,
+    "b0-b3@0,0,0|q=2|direction=1": 42,
+    "b0-b4@0,0,0|q=2|direction=-1": 24,
+    "b0-b4@0,0,0|q=2|direction=1": 19,
+    "b0-b5@-1,0,0|q=2|direction=-1": 22,
+    "b0-b5@-1,0,0|q=2|direction=1": 18,
+    "b0-b6@-1,0,0|q=2|direction=-1": 12,
+    "b0-b6@-1,0,0|q=2|direction=1": 15,
+    "b0-b6@0,0,0|q=2|direction=-1": 23,
+    "b0-b6@0,0,0|q=2|direction=1": 26,
+    "b1-b2@0,0,-1|q=2|direction=-1": 49,
+    "b1-b2@0,0,-1|q=2|direction=1": 40,
+    "b1-b2@0,0,0|q=2|direction=-1": 42,
+    "b1-b2@0,0,0|q=2|direction=1": 49,
+    "b1-b3@1,1,-1|q=2|direction=-1": 41,
+    "b1-b3@1,1,-1|q=2|direction=1": 57,
+    "b1-b4@1,0,0|q=2|direction=-1": 24,
+    "b1-b4@1,0,0|q=2|direction=1": 23,
+    "b1-b5@0,1,0|q=2|direction=-1": 18,
+    "b1-b5@0,1,0|q=2|direction=1": 22,
+    "b1-b7@0,0,-1|q=2|direction=-1": 30,
+    "b1-b7@0,0,-1|q=2|direction=1": 34,
+    "b1-b7@1,0,-1|q=2|direction=-1": 28,
+    "b1-b7@1,0,-1|q=2|direction=1": 18,
+    "b2-b3@1,0,0|q=2|direction=-1": 59,
+    "b2-b3@1,0,0|q=2|direction=1": 46,
+    "b2-b3@1,1,0|q=2|direction=-1": 58,
+    "b2-b3@1,1,0|q=2|direction=1": 59,
+    "b2-b4@0,0,0|q=2|direction=-1": 25,
+    "b2-b4@0,0,0|q=2|direction=1": 26,
+    "b2-b4@1,0,0|q=2|direction=-1": 29,
+    "b2-b4@1,0,0|q=2|direction=1": 32,
+    "b2-b6@0,0,0|q=2|direction=-1": 29,
+    "b2-b6@0,0,0|q=2|direction=1": 25,
+    "b2-b7@1,0,0|q=2|direction=-1": 29,
+    "b2-b7@1,0,0|q=2|direction=1": 29,
+    "b3-b5@-1,0,1|q=2|direction=-1": 23,
+    "b3-b5@-1,0,1|q=2|direction=1": 28,
+    "b3-b5@0,0,1|q=2|direction=-1": 24,
+    "b3-b5@0,0,1|q=2|direction=1": 25,
+    "b3-b6@-1,0,0|q=2|direction=-1": 23,
+    "b3-b6@-1,0,0|q=2|direction=1": 20,
+    "b3-b7@0,-1,0|q=2|direction=-1": 24,
+    "b3-b7@0,-1,0|q=2|direction=1": 22,
+    "b4-b6@0,0,0|q=2|direction=-1": 18,
+    "b4-b6@0,0,0|q=2|direction=1": 23,
+    "b4-b6@0,1,0|q=2|direction=-1": 35,
+    "b4-b6@0,1,0|q=2|direction=1": 29,
+    "b4-b7@0,0,-1|q=2|direction=-1": 16,
+    "b4-b7@0,0,-1|q=2|direction=1": 19,
+    "b4-b7@0,0,0|q=2|direction=-1": 26,
+    "b4-b7@0,0,0|q=2|direction=1": 24,
+    "b5-b6@0,0,-1|q=2|direction=-1": 19,
+    "b5-b6@0,0,-1|q=2|direction=1": 20,
+    "b5-b6@0,0,0|q=2|direction=-1": 19,
+    "b5-b6@0,0,0|q=2|direction=1": 20,
+    "b5-b7@0,-1,-1|q=2|direction=-1": 18,
+    "b5-b7@0,-1,-1|q=2|direction=1": 23,
+    "b5-b7@0,0,-1|q=2|direction=-1": 27,
+    "b5-b7@0,0,-1|q=2|direction=1": 29
+  },
+  "channel_exclusions": {},
+  "charge_model": {
+    "environment_mode": "symmetric_pair",
+    "environment_saddle_eV_per_neighbor": 0.02,
+    "pair_cutoff_A": 3.6,
+    "pair_energies_eV": {
+      "O3-O3": -0.04,
+      "O3-O4": -0.05,
+      "O4-O4": -0.06
+    },
+    "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Pair interactions (-0.04,-0.05,-0.06 eV) and +0.02 eV per-neighbor saddle term are declared model approximations; not environment-resolved NEB."
+  },
+  "conditional_on_truncated_graph": false,
+  "config": {
+    "boundary": "slab",
+    "charge": 2,
+    "device": {
+      "bottom": {
+        "contact_depth_A": 2.0,
+        "oxygen_boundary": "blocking",
+        "potential_V": 0.0
+      },
+      "potential_model": "linear_dielectric",
+      "schema_version": 1,
+      "top": {
+        "contact_depth_A": 2.0,
+        "oxygen_boundary": "blocking",
+        "potential_V": 0.0
+      }
+    },
+    "environment_scale": 1.0,
+    "field_V_nm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "pair_scale": 1.0,
+    "repeats": [
+      3,
+      3,
+      8
+    ],
+    "seed": 17,
+    "temperature_K": 800.0
+  },
+  "coverage_warning": "",
+  "created_utc": "2026-11-11T09:16:14.507098+00:00",
+  "device_boundary": {
+    "applied_voltage_V": 0.0,
+    "area_A2": 237.89483009999998,
+    "assumptions": [
+      "Ideal planar electrodes impose a static linear dielectric potential; microscopic electrode material and work-function effects are unspecified.",
+      "Both interfaces block oxygen exchange; the boundary adds no vacancy creation, removal or charge-state changes.",
+      "The same classical catalogue is used up to the truncated oxide surfaces; contact tags do not supply metal-specific interface energies or barriers.",
+      "The prescribed field has no defect-charge feedback, image-charge correction or self-consistent Poisson solution.",
+      "No electronic transport, current, heating or switching-filament prediction is made by this boundary module.",
+      "For fixed vacancy count and charge, a common shift of both electrode potentials leaves rates and relative external energy unchanged."
+    ],
+    "boundary": "slab",
+    "boundary_convention": "Periodic translations along cell A and B; finite C faces at projected depths 0 and C dot normal.",
+    "config": {
+      "bottom": {
+        "contact_depth_A": 2.0,
+        "oxygen_boundary": "blocking",
+        "potential_V": 0.0
+      },
+      "potential_model": "linear_dielectric",
+      "schema_version": 1,
+      "top": {
+        "contact_depth_A": 2.0,
+        "oxygen_boundary": "blocking",
+        "potential_V": 0.0
+      }
+    },
+    "contacts": {
+      "bottom": {
+        "contact_depth_A": 2.0,
+        "n_sites": 27,
+        "oxygen_boundary": "blocking",
+        "site_indices": [
+          0,
+          1,
+          5,
+          64,
+          65,
+          69,
+          128,
+          129,
+          133,
+          192,
+          193,
+          197,
+          256,
+          257,
+          261,
+          320,
+          321,
+          325,
+          384,
+          385,
+          389,
+          448,
+          449,
+          453,
+          512,
+          513,
+          517
+        ]
+      },
+      "role": "Oxide-adjacent site tags only, not equipotential metal nodes or calibrated interface states.",
+      "top": {
+        "contact_depth_A": 2.0,
+        "n_sites": 27,
+        "oxygen_boundary": "blocking",
+        "site_indices": [
+          58,
+          59,
+          63,
+          122,
+          123,
+          127,
+          186,
+          187,
+          191,
+          250,
+          251,
+          255,
+          314,
+          315,
+          319,
+          378,
+          379,
+          383,
+          442,
+          443,
+          447,
+          506,
+          507,
+          511,
+          570,
+          571,
+          575
+        ]
+      }
+    },
+    "counts": {
+      "bottom_contact": 27,
+      "interior": 522,
+      "oxide_sites": 576,
+      "top_contact": 27
+    },
+    "electronic_current_model": null,
+    "explicit_metal_atoms": false,
+    "field_V_A": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "field_V_nm": [
+      -0.0,
+      -0.0,
+      -0.0
+    ],
+    "interface_chemical_calibration": null,
+    "model": "electrode_oxide_electrode_boundary",
+    "normal": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "oxygen_exchange_enabled": false,
+    "pbc": [
+      true,
+      true,
+      false
+    ],
+    "planes": {
+      "bottom": {
+        "depth_A": 0.0,
+        "point_A": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "potential_V": 0.0
+      },
+      "span_A": [
+        15.343499999999999,
+        0.0,
+        0.0
+      ],
+      "span_B": [
+        0.0,
+        15.5046,
+        0.0
+      ],
+      "top": {
+        "depth_A": 41.77430695625495,
+        "point_A": [
+          -6.774192079103541,
+          0.0,
+          41.77430695625495
+        ],
+        "potential_V": 0.0
+      }
+    },
+    "poisson_solver": null,
+    "potential_reference": "Absolute potentials include V_bottom; relative site potentials and external energy use V_bottom=0 as reference.",
+    "space_charge_feedback": false,
+    "thickness_A": 41.77430695625495,
+    "thickness_nm": 4.177430695625494,
+    "voltage_convention": "V_applied=V_top-V_bottom; E=-grad(phi). Positive top bias drives positive vacancies toward the bottom."
+  },
+  "diffusion": {
+    "available": false,
+    "reason": "One trajectory does not provide an independent-replica uncertainty estimate. Use study at a common physical time in zero-field bulk."
+  },
+  "effective_field_V_nm": [
+    -0.0,
+    -0.0,
+    -0.0
+  ],
+  "energy_reference": "Catalogue energy zero is specific to this charge branch; do not compare absolute energies across charges. energy_eV remains chemical configurational energy. electrostatic_energy_relative_bottom_eV is q times the prescribed potential relative to the bottom plane, counted once; total_energy_relative_bottom_eV is their sum at fixed electrode bias.",
+  "event_counts": {
+    "hop": 2118
+  },
+  "field_source": "electrode_voltage_linear_dielectric",
+  "files": [
+    "catalog.json",
+    "summary.json",
+    "trace.csv",
+    "events.csv",
+    "states.npz",
+    "overview.png",
+    "device_boundary.json",
+    "device_sites.csv",
+    "device_boundary.png"
+  ],
+  "final": {
+    "applied_voltage_V": 0.0,
+    "bottom_contact_vacancies": 2,
+    "bottom_potential_V": 0.0,
+    "electrostatic_energy_relative_bottom_eV": 0.0,
+    "energy_eV": 0.019999999999999997,
+    "events": 2118,
+    "interior_vacancies": 6,
+    "largest_cluster": 2,
+    "max_vacancy_depth_A": 39.24696138540152,
+    "mean_displacement_A": [
+      -5.125945878535758,
+      1.4465145775000017,
+      -3.413744146581459
+    ],
+    "mean_vacancy_depth_A": 14.883402300258206,
+    "min_vacancy_depth_A": 0.8208651316904098,
+    "msd_A2": 1980.319273517145,
+    "msd_tensor_A2": [
+      [
+        851.885529423196,
+        -386.3448795531608,
+        246.47882488238324
+      ],
+      [
+        -386.3448795531608,
+        894.1752571094491,
+        -180.68447444042667
+      ],
+      [
+        246.47882488238324,
+        -180.68447444042667,
+        234.25848698449968
+      ]
+    ],
+    "pair_count": 1,
+    "time_s": 1e-06,
+    "top_contact_vacancies": 0,
+    "top_potential_V": 0.0,
+    "total_energy_relative_bottom_eV": 0.019999999999999997,
+    "vacancies": 8
+  },
+  "initial_sites_by_vacancy_id": [
+    61,
+    92,
+    212,
+    262,
+    320,
+    421,
+    437,
+    481
+  ],
+  "initial_vacancy_indices": [
+    61,
+    92,
+    212,
+    262,
+    320,
+    421,
+    437,
+    481
+  ],
+  "migration_cutoff_A": 3.2,
+  "migration_cutoff_source": "declared in catalogue metadata",
+  "n_excluded_channels": 0,
+  "run_controls": {
+    "duration_s": 1e-06,
+    "max_events": 20000,
+    "n_vacancies": 8,
+    "sample_every": 10
+  },
+  "schema_version": "dftkmc-run-1",
+  "structure_id": "1f977044787167d6909973c1631c6772f55443c5203e0884b6231e4feed706d1",
+  "structure_provenance": "Pathak et al. 2020 combined experimental refinement; idealized Hf occupancy; not DFT-relaxed. DOI:10.1107/S2053229620013960",
+  "termination": {
+    "actual_time_s": 1e-06,
+    "censored": false,
+    "event_count": 2118,
+    "requested_time_s": 1e-06,
+    "status": "completed_duration",
+    "target_reached": true
+  },
+  "warnings": []
+}

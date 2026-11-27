@@ -1,0 +1,33 @@
+{
+  "ready": true,
+  "errors": [],
+  "warnings": [
+    "Synthetic, non-literature demonstration parameters: not DFT-calibrated predictions; explicit allow_illustrative is required.",
+    "Classical energies only; one attempt_Hz is shared by both directions of each charge/channel. No vibrational entropy is included.",
+    "charge 0: symmetric_pair is a declared model approximation, not environment-resolved NEB data.",
+    "charge 2: symmetric_pair is a declared model approximation, not environment-resolved NEB data."
+  ],
+  "missing": [],
+  "schema_version": "dftkmc-1",
+  "calibration_status": "illustrative",
+  "charges": [
+    0,
+    2
+  ],
+  "n_channels": 34,
+  "n_excluded_channels": 0,
+  "declared_dft_calibrated": false,
+  "calibration_verification": "Declaration only: validation checks input consistency and cannot certify that DFT/NEB calculations were performed or scientifically validated.",
+  "channel_status_counts": {
+    "illustrative": 68,
+    "pending": 0,
+    "dft": 0
+  },
+  "present_channel_entries_by_charge": {
+    "0": 34,
+    "2": 34
+  },
+  "n_missing_values": 0,
+  "requires_allow_illustrative": true,
+  "rate_convention": "classical_shared_saddle_equal_prefactor"
+}

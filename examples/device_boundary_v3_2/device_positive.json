@@ -1,0 +1,14 @@
+{
+  "bottom": {
+    "potential_V": 0.0,
+    "contact_depth_A": 2.0,
+    "oxygen_boundary": "blocking"
+  },
+  "top": {
+    "potential_V": 1.0,
+    "contact_depth_A": 2.0,
+    "oxygen_boundary": "blocking"
+  },
+  "potential_model": "linear_dielectric",
+  "schema_version": 1
+}

@@ -1,0 +1,61 @@
+{
+  "citation": "S. Pathak et al., Acta Crystallographica C76 (2020), 1034–1042",
+  "title": "Crystal structure of monoclinic hafnia (HfO2) revisited with synchrotron X-ray, neutron diffraction and first-principles calculations",
+  "doi": "10.1107/S2053229620013960",
+  "source_url": "https://doi.org/10.1107/S2053229620013960/ov3141sup1.cif",
+  "downloaded_file": "hafnia_pathak2020_source.cif",
+  "sha256": "d7b1528d0995076b3739c3aa217d670fd9cbb6304a7afd7be906ee6e9fbaf9a5",
+  "data_block": "combined",
+  "temperature_K": 295,
+  "space_group": "P 21/c",
+  "hall": "-P 2ybc",
+  "cell_A": [
+    5.1145,
+    5.1682,
+    5.29
+  ],
+  "angles_deg": [
+    90.0,
+    99.211,
+    90.0
+  ],
+  "symmetry_ops": [
+    "x,y,z",
+    "-x,1/2+y,1/2-z",
+    "-x,-y,-z",
+    "x,1/2-y,1/2+z"
+  ],
+  "asymmetric_sites": [
+    {
+      "element": "Hf",
+      "label": "Hf",
+      "fractional": [
+        0.2749,
+        0.0402,
+        0.2084
+      ],
+      "reported_occupancy": 0.9979
+    },
+    {
+      "element": "O",
+      "label": "O1",
+      "fractional": [
+        0.067,
+        0.3273,
+        0.3428
+      ],
+      "reported_occupancy": 1.0
+    },
+    {
+      "element": "O",
+      "label": "O2",
+      "fractional": [
+        0.4512,
+        0.7558,
+        0.484
+      ],
+      "reported_occupancy": 1.0
+    }
+  ],
+  "model_note": "Ideal stoichiometric model may set Hf occupancy to 1 explicitly; experimental refinement reported 0.9979(17). All sites have multiplicity 4; unit cell has 4 Hf and 8 O when idealized. This structure does not determine interstitial positions, migration paths or kinetic barriers."
+}

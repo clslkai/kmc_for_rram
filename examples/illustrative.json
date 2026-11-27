@@ -1,0 +1,6 @@
+{
+  "shape": [5, 5, 8],
+  "ambient_K": 500.0,
+  "seed": 7,
+  "compliance_A": 0.00001
+}

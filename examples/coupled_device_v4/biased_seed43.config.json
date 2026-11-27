@@ -1,0 +1,57 @@
+{
+  "repeats": [
+    2,
+    2,
+    4
+  ],
+  "charge": 2,
+  "temperature_K": 800.0,
+  "seed": 43,
+  "bottom_potential_V": 0.0,
+  "top_potential_V": 0.5,
+  "bottom_contact_depth_A": 2.0,
+  "top_contact_depth_A": 2.0,
+  "pair_scale": 1.0,
+  "environment_scale": 1.0,
+  "exchange": {
+    "vacancy_formation_offset_eV": 0.4,
+    "reference_basis": 0,
+    "bottom": {
+      "capacity": 96,
+      "initial_oxygen": 0,
+      "mu0_eV": -0.15,
+      "kappa_eV": 0.2,
+      "barrier_eV": 0.85,
+      "attempt_Hz": 1000000000000.0,
+      "enabled": false,
+      "mixing_entropy": true
+    },
+    "top": {
+      "capacity": 96,
+      "initial_oxygen": 0,
+      "mu0_eV": -0.15,
+      "kappa_eV": 0.2,
+      "barrier_eV": 0.85,
+      "attempt_Hz": 1000000000000.0,
+      "enabled": true,
+      "mixing_entropy": true
+    },
+    "calibration_status": "illustrative",
+    "provenance": "Synthetic device-protocol chemistry; chosen before the scheduled runs, not fitted to DFT or a forming curve."
+  },
+  "transport": {
+    "electronic_cutoff_A": 4.0,
+    "background_conductance_S": 1e-12,
+    "vacancy_conductance_S": 1e-06,
+    "reference_distance_A": 1.0,
+    "contact_offset_A": 1.0,
+    "current_compliance_A": 5e-08,
+    "read_voltage_V": 0.1,
+    "calibration_status": "illustrative",
+    "provenance": "Synthetic effective resistor parameters; not DFT- or measurement-calibrated."
+  },
+  "formation_min_conductance_S": 1e-09,
+  "formation_min_gain": 1000.0,
+  "kinetic_field_closure": "quasistatic_kirchhoff_frozen_during_event",
+  "schema_version": 1
+}
