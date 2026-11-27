@@ -1,0 +1,1487 @@
+{
+  "schema_version": "dftkmc-1",
+  "metadata": {
+    "material": "HfO2",
+    "structure_id": "1f977044787167d6909973c1631c6772f55443c5203e0884b6231e4feed706d1",
+    "calibration_status": "illustrative",
+    "synthetic_data": true,
+    "energy_unit": "eV",
+    "length_unit": "angstrom",
+    "migration_cutoff_A": 3.2,
+    "channel_exclusions": {},
+    "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend.",
+    "energy_reference": "One common arbitrary classical-energy zero per fixed-q branch. Absolute energies from different q branches must not be compared.",
+    "rate_convention": "classical_shared_saddle_equal_prefactor",
+    "vibrational_entropy_included": false,
+    "prefactor_convention": "One equal forward/reverse attempt_Hz per charge/channel; no vibrational entropy.",
+    "mock_source": {
+      "schema_version": "dftkmc-mock-1",
+      "sha256": "bb50b851395250c8a16087b4946623b1ea6df14e6362cb37529845e9454018fd",
+      "synthetic_data": true,
+      "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend.",
+      "source_metadata": {
+        "bundle_id": "hafnia-virtual-fixed-charge-v1",
+        "generator": "dftkmc.mockdata.make_mock_bundle:v1",
+        "material": "HfO2",
+        "charges": [
+          0,
+          2
+        ],
+        "structure_id": "1f977044787167d6909973c1631c6772f55443c5203e0884b6231e4feed706d1",
+        "calibration_status": "illustrative",
+        "synthetic_data": true,
+        "energy_unit": "eV",
+        "length_unit": "angstrom",
+        "frequency_unit": "Hz",
+        "migration_cutoff_A": 3.2,
+        "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend.",
+        "energy_reference": "One common arbitrary classical-energy zero per fixed-q branch. Absolute energies from different q branches must not be compared.",
+        "rate_convention": "classical_shared_saddle_equal_prefactor",
+        "vibrational_entropy_included": false,
+        "charge_selection": "q=0 and q=2 are requested independent synthetic branches, not predicted charge-state populations."
+      },
+      "digest_scope": "Complete canonical UTF-8 JSON bundle, sorted object keys, compact separators, no added newline.",
+      "interpretation": "Content checksum only; not source authentication or evidence of completed DFT/NEB."
+    },
+    "site_energy_provenance": {
+      "0": [
+        {
+          "basis_id": 0,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 1,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 2,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 3,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 4,
+          "kind": "O4",
+          "energy_eV": 0.1,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 5,
+          "kind": "O4",
+          "energy_eV": 0.1,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 6,
+          "kind": "O4",
+          "energy_eV": 0.1,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        },
+        {
+          "basis_id": 7,
+          "kind": "O4",
+          "energy_eV": 0.1,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=0: O3=0 eV and O4=0.1 eV."
+        }
+      ],
+      "2": [
+        {
+          "basis_id": 0,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 1,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 2,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 3,
+          "kind": "O3",
+          "energy_eV": 0.0,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 4,
+          "kind": "O4",
+          "energy_eV": 0.06,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 5,
+          "kind": "O4",
+          "energy_eV": 0.06,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 6,
+          "kind": "O4",
+          "energy_eV": 0.06,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        },
+        {
+          "basis_id": 7,
+          "kind": "O4",
+          "energy_eV": 0.06,
+          "status": "illustrative",
+          "synthetic_data": true,
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Site recipe for q=2: O3=0 eV and O4=0.06 eV."
+        }
+      ]
+    },
+    "import_consistency": {
+      "conversion": "saddle_eV=epsilon_initial+barrier_forward_eV; independent reverse closure checked",
+      "energy_closure_tolerance_eV": 1e-09,
+      "max_energy_closure_error_eV": 1.1102230246251565e-16,
+      "checked_channel_charge_records": 68,
+      "equal_directional_prefactors": true
+    },
+    "charge_selection": "q=0 and q=2 are requested independent synthetic branches, not predicted charge-state populations."
+  },
+  "structure": {
+    "cell_A": [
+      [
+        5.1145,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        5.1682,
+        0.0
+      ],
+      [
+        -0.8467740098879426,
+        0.0,
+        5.221788369531868
+      ]
+    ],
+    "hf_fractional": [
+      [
+        0.2749,
+        0.0402,
+        0.2084
+      ],
+      [
+        0.7251000000000001,
+        0.5402,
+        0.29159999999999997
+      ],
+      [
+        0.7251000000000001,
+        0.9598,
+        0.7916
+      ],
+      [
+        0.2749,
+        0.4598,
+        0.7084
+      ]
+    ],
+    "oxygen_fractional": [
+      [
+        0.067,
+        0.3273,
+        0.3428
+      ],
+      [
+        0.933,
+        0.8272999999999999,
+        0.1572
+      ],
+      [
+        0.933,
+        0.6727000000000001,
+        0.6572
+      ],
+      [
+        0.067,
+        0.17270000000000002,
+        0.8428
+      ],
+      [
+        0.4512,
+        0.7558,
+        0.484
+      ],
+      [
+        0.5488,
+        0.2558,
+        0.016000000000000014
+      ],
+      [
+        0.5488,
+        0.24419999999999997,
+        0.516
+      ],
+      [
+        0.4512,
+        0.7442,
+        0.984
+      ]
+    ],
+    "oxygen_kinds": [
+      "O3",
+      "O3",
+      "O3",
+      "O3",
+      "O4",
+      "O4",
+      "O4",
+      "O4"
+    ],
+    "provenance": "Pathak et al. 2020 combined experimental refinement; idealized Hf occupancy; not DFT-relaxed. DOI:10.1107/S2053229620013960"
+  },
+  "site_energies_eV": {
+    "0": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "2": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06,
+      0.06,
+      0.06,
+      0.06
+    ]
+  },
+  "charge_models": {
+    "0": {
+      "pair_cutoff_A": 3.6,
+      "pair_energies_eV": {
+        "O3-O3": -0.04,
+        "O3-O4": -0.05,
+        "O4-O4": -0.06
+      },
+      "environment_mode": "symmetric_pair",
+      "environment_saddle_eV_per_neighbor": 0.02,
+      "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Pair interactions (-0.04,-0.05,-0.06 eV) and +0.02 eV per-neighbor saddle term are declared model approximations; not environment-resolved NEB."
+    },
+    "2": {
+      "pair_cutoff_A": 3.6,
+      "pair_energies_eV": {
+        "O3-O3": -0.04,
+        "O3-O4": -0.05,
+        "O4-O4": -0.06
+      },
+      "environment_mode": "symmetric_pair",
+      "environment_saddle_eV_per_neighbor": 0.02,
+      "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. Pair interactions (-0.04,-0.05,-0.06 eV) and +0.02 eV per-neighbor saddle term are declared model approximations; not environment-resolved NEB."
+    }
+  },
+  "channels": [
+    {
+      "to_basis": 1,
+      "length_A": 2.809951506870002,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        -1,
+        -1,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b0-b1@-1,-1,0",
+      "displacement_A": [
+        -0.5281817437647975,
+        -2.5841,
+        -0.9691639213851146
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.7901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.6901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 1,
+      "length_A": 2.8099515068700014,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b0-b1@-1,0,0",
+      "displacement_A": [
+        -0.5281817437647975,
+        2.5840999999999994,
+        -0.9691639213851146
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.7901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.6901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 2,
+      "length_A": 2.60525048125693,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b0-b2@-1,0,0",
+      "displacement_A": [
+        -0.9515687487087688,
+        1.7850962800000003,
+        1.6417302633808195
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.7905733489193972,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.6905733489193973,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 3,
+      "length_A": 2.7630475827560113,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        0,
+        0,
+        -1
+      ],
+      "to_kind": "O3",
+      "id": "b0-b3@0,0,-1",
+      "displacement_A": [
+        0.4233870049439713,
+        -0.7990037199999998,
+        -2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 3,
+      "length_A": 2.7630475827560113,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b0-b3@0,0,0",
+      "displacement_A": [
+        -0.4233870049439713,
+        -0.7990037199999998,
+        2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 4,
+      "length_A": 2.9754950771461957,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b0-b4@0,0,0",
+      "displacement_A": [
+        1.8454264098038224,
+        2.2145737000000003,
+        0.7373165177778997
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8931154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7531154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 5,
+      "length_A": 2.9466321185932114,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b0-b5@-1,0,0",
+      "displacement_A": [
+        -2.37360815356862,
+        -0.36952629999999975,
+        -1.7064804391630144
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8978736135080249,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7578736135080248,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.970790634539606,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b0-b6@-1,0,0",
+      "displacement_A": [
+        -2.7969951585125914,
+        -0.42947742,
+        0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.893623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.753623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.524528424843526,
+      "from_kind": "O3",
+      "from_basis": 0,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b0-b6@0,0,0",
+      "displacement_A": [
+        2.3175048414874078,
+        -0.42947742,
+        0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8831800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7431800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 2,
+      "length_A": 2.763047582756011,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        0,
+        0,
+        -1
+      ],
+      "to_kind": "O3",
+      "id": "b1-b2@0,0,-1",
+      "displacement_A": [
+        0.4233870049439713,
+        -0.7990037199999992,
+        -2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 2,
+      "length_A": 2.763047582756011,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b1-b2@0,0,0",
+      "displacement_A": [
+        -0.4233870049439713,
+        -0.7990037199999992,
+        2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7044341480746136,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 3,
+      "length_A": 2.6052504812569306,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        1,
+        1,
+        -1
+      ],
+      "to_kind": "O3",
+      "id": "b1-b3@1,1,-1",
+      "displacement_A": [
+        0.9515687487087685,
+        1.7850962800000008,
+        -1.6417302633808195
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.7905733489193972,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.6905733489193973,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 4,
+      "length_A": 2.9466321185932114,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b1-b4@1,0,0",
+      "displacement_A": [
+        2.37360815356862,
+        -0.3695262999999994,
+        1.7064804391630144
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8978736135080249,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7578736135080248,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 5,
+      "length_A": 2.9754950771461957,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        0,
+        1,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b1-b5@0,1,0",
+      "displacement_A": [
+        -1.8454264098038229,
+        2.2145737000000003,
+        -0.7373165177778997
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8931154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7531154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.5245284248435262,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        0,
+        0,
+        -1
+      ],
+      "to_kind": "O4",
+      "id": "b1-b7@0,0,-1",
+      "displacement_A": [
+        -2.317504841487408,
+        -0.4294774199999997,
+        -0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8831800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7431800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.970790634539606,
+      "from_kind": "O3",
+      "from_basis": 1,
+      "cell_shift": [
+        1,
+        0,
+        -1
+      ],
+      "to_kind": "O4",
+      "id": "b1-b7@1,0,-1",
+      "displacement_A": [
+        2.7969951585125914,
+        -0.4294774199999997,
+        -0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.893623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.753623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 3,
+      "length_A": 2.809951506870002,
+      "from_kind": "O3",
+      "from_basis": 2,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b2-b3@1,0,0",
+      "displacement_A": [
+        0.5281817437647972,
+        -2.5841,
+        0.9691639213851146
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.7901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.6901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 3,
+      "length_A": 2.809951506870002,
+      "from_kind": "O3",
+      "from_basis": 2,
+      "cell_shift": [
+        1,
+        1,
+        0
+      ],
+      "to_kind": "O3",
+      "id": "b2-b3@1,1,0",
+      "displacement_A": [
+        0.5281817437647972,
+        2.5841,
+        0.9691639213851146
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.7901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.6901279650536496,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 4,
+      "length_A": 2.5245284248435262,
+      "from_kind": "O3",
+      "from_basis": 2,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b2-b4@0,0,0",
+      "displacement_A": [
+        -2.317504841487408,
+        0.4294774199999997,
+        -0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8831800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7431800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 4,
+      "length_A": 2.970790634539606,
+      "from_kind": "O3",
+      "from_basis": 2,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b2-b4@1,0,0",
+      "displacement_A": [
+        2.7969951585125914,
+        0.4294774199999997,
+        -0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.893623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.753623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.9754950771461957,
+      "from_kind": "O3",
+      "from_basis": 2,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b2-b6@0,0,0",
+      "displacement_A": [
+        -1.8454264098038229,
+        -2.2145737000000003,
+        -0.7373165177778997
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8931154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7531154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.9466321185932114,
+      "from_kind": "O3",
+      "from_basis": 2,
+      "cell_shift": [
+        1,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b2-b7@1,0,0",
+      "displacement_A": [
+        2.37360815356862,
+        0.3695262999999994,
+        1.7064804391630144
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8978736135080249,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7578736135080248,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 5,
+      "length_A": 2.970790634539606,
+      "from_kind": "O3",
+      "from_basis": 3,
+      "cell_shift": [
+        -1,
+        0,
+        1
+      ],
+      "to_kind": "O4",
+      "id": "b3-b5@-1,0,1",
+      "displacement_A": [
+        -2.7969951585125914,
+        0.42947742,
+        0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.893623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.753623383751927,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 5,
+      "length_A": 2.524528424843526,
+      "from_kind": "O3",
+      "from_basis": 3,
+      "cell_shift": [
+        0,
+        0,
+        1
+      ],
+      "to_kind": "O4",
+      "id": "b3-b5@0,0,1",
+      "displacement_A": [
+        2.3175048414874078,
+        0.42947742,
+        0.9044137456029196
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8831800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7431800800302347,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.9466321185932114,
+      "from_kind": "O3",
+      "from_basis": 3,
+      "cell_shift": [
+        -1,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b3-b6@-1,0,0",
+      "displacement_A": [
+        -2.37360815356862,
+        0.36952629999999975,
+        -1.7064804391630144
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8978736135080249,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7578736135080248,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.9754950771461957,
+      "from_kind": "O3",
+      "from_basis": 3,
+      "cell_shift": [
+        0,
+        -1,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b3-b7@0,-1,0",
+      "displacement_A": [
+        1.8454264098038224,
+        -2.2145737000000003,
+        0.7373165177778997
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8931154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7531154365448374,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.6910566427299325,
+      "from_kind": "O4",
+      "from_basis": 4,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b4-b6@0,0,0",
+      "displacement_A": [
+        0.4720784316835856,
+        -2.6440511200000003,
+        0.16709722782501993
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8848535282174012,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7448535282174011,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.573345506847631,
+      "from_kind": "O4",
+      "from_basis": 4,
+      "cell_shift": [
+        0,
+        1,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b4-b6@0,1,0",
+      "displacement_A": [
+        0.4720784316835856,
+        2.5241488799999994,
+        0.16709722782501993
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8819179657653615,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7419179657653616,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.6456793337041535,
+      "from_kind": "O4",
+      "from_basis": 4,
+      "cell_shift": [
+        0,
+        0,
+        -1
+      ],
+      "to_kind": "O4",
+      "id": "b4-b7@0,0,-1",
+      "displacement_A": [
+        0.4233870049439713,
+        -0.05995112000000028,
+        -2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.9031195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7631195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.6456793337041535,
+      "from_kind": "O4",
+      "from_basis": 4,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b4-b7@0,0,0",
+      "displacement_A": [
+        -0.4233870049439713,
+        -0.05995112000000028,
+        2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.9031195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7631195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.6456793337041535,
+      "from_kind": "O4",
+      "from_basis": 5,
+      "cell_shift": [
+        0,
+        0,
+        -1
+      ],
+      "to_kind": "O4",
+      "id": "b5-b6@0,0,-1",
+      "displacement_A": [
+        0.4233870049439713,
+        -0.05995112000000028,
+        -2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.9031195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7631195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 6,
+      "length_A": 2.6456793337041535,
+      "from_kind": "O4",
+      "from_basis": 5,
+      "cell_shift": [
+        0,
+        0,
+        0
+      ],
+      "to_kind": "O4",
+      "id": "b5-b6@0,0,0",
+      "displacement_A": [
+        -0.4233870049439713,
+        -0.05995112000000028,
+        2.610894184765934
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.9031195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7631195243654185,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.6910566427299325,
+      "from_kind": "O4",
+      "from_basis": 5,
+      "cell_shift": [
+        0,
+        -1,
+        -1
+      ],
+      "to_kind": "O4",
+      "id": "b5-b7@0,-1,-1",
+      "displacement_A": [
+        -0.4720784316835856,
+        -2.6440511200000003,
+        -0.16709722782501993
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8848535282174012,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7448535282174011,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    },
+    {
+      "to_basis": 7,
+      "length_A": 2.573345506847631,
+      "from_kind": "O4",
+      "from_basis": 5,
+      "cell_shift": [
+        0,
+        0,
+        -1
+      ],
+      "to_kind": "O4",
+      "id": "b5-b7@0,0,-1",
+      "displacement_A": [
+        -0.4720784316835856,
+        2.5241488799999994,
+        -0.16709722782501993
+      ],
+      "data": {
+        "0": {
+          "saddle_eV": 0.8819179657653615,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=0, S=max(eps_i,eps_j)+0.78+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        },
+        "2": {
+          "saddle_eV": 0.7419179657653616,
+          "attempt_Hz": 1000000000000.0,
+          "ts_fraction": 0.5,
+          "status": "illustrative",
+          "provenance": "SYNTHETIC NON-LITERATURE VIRTUAL DATA. Arbitrary numerical fixtures for testing import, KMC rates and statistics; no DFT/NEB calculation was performed. Different q baselines are arbitrary and do not assert a material or literature trend. For q=2, S=max(eps_i,eps_j)+0.68+[0.025*(length_A-2.5)+0.020*(dz/length_A)^2] eV. Bf=S-eps_i; Br=S-eps_j. Shared 1e12 Hz prefactor and midpoint TS are synthetic assumptions."
+        }
+      }
+    }
+  ]
+}

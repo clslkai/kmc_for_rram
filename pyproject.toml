@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rram-vcm3d"
+version = "0.4.0"
+description = "Hafnia KMC with finite oxygen reservoirs, effective electronic transport and auditable atom bookkeeping"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "matplotlib>=3.6"]
+
+[project.scripts]
+vcm3d = "vcm3d.cli:main"
+dftkmc = "dftkmc.cli:main"
+
+[tool.setuptools]
+packages = ["vcm3d", "atomistic", "dftkmc"]

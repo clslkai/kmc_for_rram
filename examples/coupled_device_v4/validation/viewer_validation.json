@@ -1,0 +1,154 @@
+{
+  "artifacts": [
+    {
+      "case": "biased_seed17",
+      "events": 5525,
+      "png_bytes": 646925,
+      "png_sha256": "c469f9e85465a7fbe4c508e6e0f7d4955812bacfcdda2a58178b1c066bd80e55",
+      "saved_frames": 601,
+      "status": "completed_waveform",
+      "viewer_bytes": 4475542,
+      "viewer_sha256": "8cdafac2234c1ed555bfa4753cddac5aa139dff4574068128344f3252696262e"
+    },
+    {
+      "case": "biased_seed29",
+      "events": 5116,
+      "png_bytes": 655409,
+      "png_sha256": "247ed2286131b7ac23b0300190d78d7017b222dbb2dcbf6f0de95bcbc3e6f563",
+      "saved_frames": 739,
+      "status": "completed_waveform",
+      "viewer_bytes": 5501621,
+      "viewer_sha256": "655089bea49bb953d90e24c81496ddcfa0138ef8dbb4e85a1dc2a1100eee08ef"
+    },
+    {
+      "case": "biased_seed43",
+      "events": 4901,
+      "png_bytes": 662771,
+      "png_sha256": "8e7a050d7fd12eecd146e42463ebb0e4ec6422c093794690be365199318098bb",
+      "saved_frames": 681,
+      "status": "completed_waveform",
+      "viewer_bytes": 5074295,
+      "viewer_sha256": "baf1f8ea7a7eec182e6ce5133d3d5964448b24c73b4d33a3a1d9f71bfb243643"
+    },
+    {
+      "case": "constant_conductance_seed17",
+      "events": 3204,
+      "png_bytes": 465073,
+      "png_sha256": "d5002634634191744045a47cdc939e60a0eee4e0f883e6d7a1d53ace347c6ff9",
+      "saved_frames": 179,
+      "status": "completed_waveform",
+      "viewer_bytes": 1382472,
+      "viewer_sha256": "63e27ee5526d4aa0883ff884a0d1b5431e8f7dcfb4729beac48b0b6e8353bb2a"
+    },
+    {
+      "case": "exchange_blocked_seed17",
+      "events": 0,
+      "png_bytes": 427501,
+      "png_sha256": "1ccc22e6cc2bfd25f645ac5b4fffc3bc8ab785be1592b3c7b153cc9a4bea1977",
+      "saved_frames": 4,
+      "status": "completed_waveform",
+      "viewer_bytes": 141079,
+      "viewer_sha256": "62ffb177b2915191adbe13db51eb5e30697601193619bec5ec0573f203f05b30"
+    },
+    {
+      "case": "zero_bias_seed17",
+      "events": 13108,
+      "png_bytes": 510701,
+      "png_sha256": "6e5b1b038010276c2e5313d4c4e952c5573474393e591ac7e731d46f8a2e93c1",
+      "saved_frames": 657,
+      "status": "completed_waveform",
+      "viewer_bytes": 4340261,
+      "viewer_sha256": "e1b64462e87025bce1b2d596e630681ded3052db4fd685a722560e722158e260"
+    }
+  ],
+  "browser_screenshot_validation": {
+    "attempted": true,
+    "bundled_playwright_browser": "Missing Chromium headless executable in the environment",
+    "scope": "System Chromium could not start. No real-browser screenshot or CSS/layout verification is claimed.",
+    "system_browser": "/usr/bin/chromium",
+    "system_browser_failure": "socket() failed: Operation not permitted (1)",
+    "verified": false
+  },
+  "calibration_status": "illustrative",
+  "code_version": "0.4.0",
+  "data_integrity": {
+    "all_copied_files_sha256_equal": true,
+    "copied_source_files": 81,
+    "display_precision": "Viewer positions and site potentials are rounded for display; relative current overlay uses normalized float32 values. Source NPZ/CSV retain full precision.",
+    "existing_run_demo_and_validation_files_preserved": true,
+    "kmc_rerun_in_finalization": false,
+    "scientific_npz_csv_outputs_modified": false,
+    "source_code_edited_in_finalization": false,
+    "summary_modification": "Appended coupled_overview.png and viewer.html to files only; all other summary data compared equal.",
+    "tests_rerun_in_finalization": false
+  },
+  "exact_first_criterion_saved_frame": {
+    "applied_voltage_V": 0.5,
+    "case": "biased_seed17",
+    "conducting_path_site_ids": [
+      96,
+      100,
+      103,
+      110,
+      107,
+      17,
+      18,
+      83,
+      57,
+      124,
+      122
+    ],
+    "equivalent_conductance_S": 3.6418608712445914e-08,
+    "event_count": 254,
+    "frame_index_zero_based": 13,
+    "frame_ordinal_one_based": 14,
+    "model_formation_criterion": true,
+    "requested_voltage_V": 0.5,
+    "saved_frame_count": 601,
+    "terminal_current_A": 1.8209304356222702e-08,
+    "time_s": 1.4288636370855406e-07,
+    "vacancies": 17,
+    "vacancy_graph_spanning": true
+  },
+  "implementation": "dftkmc/coupled_plot.py",
+  "interpretation": "Illustrative isothermal effective-network visualization; no interpolation of defect motion, no space-charge Poisson/quantum transport, and no experimental forming validation.",
+  "offline_javascript_harness": {
+    "actual_saved_frames": 601,
+    "canvas_draw_calls": 47187,
+    "first_criterion_event": 254,
+    "first_criterion_frame_label": "14 / 601",
+    "harness_script_matches_delivered_viewer_script": true,
+    "performed": true,
+    "runtime": "Node.js with a minimal DOM/canvas call harness; no networking",
+    "runtime_errors": 0,
+    "scope": "Checks JavaScript execution, saved data and control transitions. Canvas drawing calls were stubbed; this is not a browser-layout screenshot validation.",
+    "selected_slider_index_zero_based": 123,
+    "tested_controls": [
+      "initial rendering",
+      "First criterion",
+      "Final",
+      "slider to frame index 123",
+      "playback advancing actual saved frames",
+      "3D rotation",
+      "saved site/atom-label and local-potential inspector",
+      "relative electronic-current overlay"
+    ]
+  },
+  "png_visual_inspection": [
+    {
+      "case": "biased_seed17",
+      "observation": "Legible six-panel rendering with initial Nv=0/no path and actual first joint-criterion Nv=17 path. Time traces retain the subsequent nonspanning final outcome. Footer spacing was verified.",
+      "performed": true
+    },
+    {
+      "case": "exchange_blocked_seed17",
+      "events": 0,
+      "observation": "Zero-event control renders initial/final Nv=0 without a path, constant positive background G, the requested bias reversal and unchanged zero reservoir/vacancy counts; oxygen and reaction-charge residuals are zero.",
+      "performed": true,
+      "saved_frames": 4
+    }
+  ],
+  "recorded_utc": "2026-11-11T10:22:09.773486+00:00",
+  "representative_case": "biased_seed17",
+  "schema_version": "coupled-viewer-validation-1"
+}

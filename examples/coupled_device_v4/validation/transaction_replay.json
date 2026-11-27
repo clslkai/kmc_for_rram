@@ -1,0 +1,35 @@
+{
+  "case": "biased_seed17",
+  "purpose": "Verify transactional candidate-field solve leaves the full successful trajectory unchanged.",
+  "events": 5525,
+  "time_s": 8e-06,
+  "status": "completed_waveform",
+  "csv_byte_identical": {
+    "events.csv": true,
+    "oxygen_ledger.csv": true,
+    "trace.csv": true,
+    "electronic_edges.csv": true,
+    "contact_sites.csv": true
+  },
+  "npz_arrays_identical": {
+    "time_s": true,
+    "events": true,
+    "vacancy": true,
+    "oxygen_ids": true,
+    "vacancy_ids": true,
+    "potential_V": true,
+    "edge_current_A": true,
+    "edge_field_V_nm": true,
+    "oxygen_A": true,
+    "hf_A": true,
+    "cell_A": true,
+    "pbc": true,
+    "depth_A": true,
+    "bottom_contact": true,
+    "top_contact": true,
+    "electronic_pairs": true,
+    "electronic_displacements_A": true
+  },
+  "all_identical": true,
+  "wall_time_s": 30.425172671000837
+}

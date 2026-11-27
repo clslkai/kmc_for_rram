@@ -1,0 +1,58 @@
+{
+  "config": {
+    "shape": [
+      5,
+      5,
+      8
+    ],
+    "spacing_m": 5e-10,
+    "ambient_K": 500.0,
+    "attempt_Hz": 1000000000000.0,
+    "vacancy_charge_e": 2.0,
+    "pair_energy_eV": 0.8,
+    "pair_barrier_eV": 0.45,
+    "vacancy_barrier_eV": 0.65,
+    "interstitial_barrier_eV": 0.7,
+    "vacancy_binding_eV": 0.08,
+    "sigma_off_S_m": 0.001,
+    "sigma_on_S_m": 1000.0,
+    "thermal_W_mK": 1.0,
+    "compliance_A": 1e-05,
+    "max_temperature_K": 1500.0,
+    "seed": 7
+  },
+  "initial": "filament",
+  "fraction": 0.04,
+  "pulses_V_s": [
+    [
+      -2.0,
+      1e-06
+    ]
+  ],
+  "status": "completed_waveform",
+  "event_counts": {
+    "generate": 32,
+    "recombine": 11,
+    "vacancy_hop": 0,
+    "interstitial_hop": 1
+  },
+  "final": {
+    "time_s": 1e-06,
+    "events": 44,
+    "applied_voltage_V": -2.0,
+    "device_voltage_V": -2.0,
+    "current_A": -2.357064396986399e-11,
+    "conductance_S": 1.1785321984931995e-11,
+    "resistance_ohm": 84851309219.93816,
+    "frozen_read_0p1V_current_A": 1.1785321984931995e-12,
+    "power_W": 4.714128793440198e-11,
+    "max_temperature_K": 500.00201517310813,
+    "vacancies": 29,
+    "interstitials": 29,
+    "spanning": false,
+    "kcl_residual_A": 1.4823076576950256e-21,
+    "energy_residual_W": -5.326002706727271e-21,
+    "thermal_residual_W": 1.9387045606711586e-26
+  },
+  "warning": "Illustrative closed-oxygen coarse-grained model; not calibrated HfO2 predictions."
+}

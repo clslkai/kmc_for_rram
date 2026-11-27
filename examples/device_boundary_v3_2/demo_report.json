@@ -1,0 +1,113 @@
+{
+  "version": "0.3.2",
+  "calibration_status": "illustrative",
+  "seed": 17,
+  "repeats": [
+    3,
+    3,
+    8
+  ],
+  "temperature_K": 800.0,
+  "fixed_charge": 2,
+  "n_vacancies": 8,
+  "requested_duration_s": 1e-06,
+  "max_events": 20000,
+  "cases": [
+    {
+      "name": "negative",
+      "top_voltage_V": -1.0,
+      "bottom_voltage_V": 0.0,
+      "effective_field_V_nm": [
+        0.0,
+        0.0,
+        0.23938158951318478
+      ],
+      "thickness_nm": 4.177430695625494,
+      "initial_vacancy_indices": [
+        61,
+        92,
+        212,
+        262,
+        320,
+        421,
+        437,
+        481
+      ],
+      "initial_mean_depth_A": 18.29714644683967,
+      "final_mean_depth_A": 40.774334483489596,
+      "events": 984,
+      "time_s": 1e-06,
+      "target_reached": true,
+      "status": "completed_duration",
+      "vacancy_count_conserved_in_saved_states": true,
+      "bottom_contact_vacancies": 0,
+      "interior_vacancies": 1,
+      "top_contact_vacancies": 7
+    },
+    {
+      "name": "zero",
+      "top_voltage_V": 0.0,
+      "bottom_voltage_V": 0.0,
+      "effective_field_V_nm": [
+        -0.0,
+        -0.0,
+        -0.0
+      ],
+      "thickness_nm": 4.177430695625494,
+      "initial_vacancy_indices": [
+        61,
+        92,
+        212,
+        262,
+        320,
+        421,
+        437,
+        481
+      ],
+      "initial_mean_depth_A": 18.29714644683967,
+      "final_mean_depth_A": 14.883402300258206,
+      "events": 2118,
+      "time_s": 1e-06,
+      "target_reached": true,
+      "status": "completed_duration",
+      "vacancy_count_conserved_in_saved_states": true,
+      "bottom_contact_vacancies": 2,
+      "interior_vacancies": 6,
+      "top_contact_vacancies": 0
+    },
+    {
+      "name": "positive",
+      "top_voltage_V": 1.0,
+      "bottom_voltage_V": 0.0,
+      "effective_field_V_nm": [
+        -0.0,
+        -0.0,
+        -0.23938158951318478
+      ],
+      "thickness_nm": 4.177430695625494,
+      "initial_vacancy_indices": [
+        61,
+        92,
+        212,
+        262,
+        320,
+        421,
+        437,
+        481
+      ],
+      "initial_mean_depth_A": 18.29714644683967,
+      "final_mean_depth_A": 1.447479736034234,
+      "events": 856,
+      "time_s": 1e-06,
+      "target_reached": true,
+      "status": "completed_duration",
+      "vacancy_count_conserved_in_saved_states": true,
+      "bottom_contact_vacancies": 6,
+      "interior_vacancies": 2,
+      "top_contact_vacancies": 0
+    }
+  ],
+  "all_complete": true,
+  "same_initial_sites": true,
+  "interpretation": "Three paired synthetic boundary demonstrations at a common physical time. Same seed and initial-site rule across voltages; not independent statistical replicas. Observed vacancy redistribution is not electronic current, filament formation or a material prediction."
+}
